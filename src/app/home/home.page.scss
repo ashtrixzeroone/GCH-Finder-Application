@@ -1,0 +1,78 @@
+
+ion-toolbar {
+  --background: black;
+
+ion-icon {
+  font-size: x-large;
+  padding-top: 10px;
+}
+
+ion-item {
+  --background: black;
+}
+ion-text {
+    color:aliceblue;
+    font-size: small;
+    color: beige;
+}
+
+}
+
+.custom-icon{
+  font-size:30px;
+  color: white;
+}
+
+
+ion-content {
+  font-style: normal;
+  font-size: 20px;
+  font-family: 'Raleway';
+  color: beige;
+  background-color: black;
+} 
+  
+ion-button{
+    font-size: 17px;
+    color: beige;
+    font-family: 'Dangrek';
+}
+  
+
+ion-title {
+  font-size: xx-large;
+  font-family: 'Staatliches';
+  color:beige;
+  text-align: left;
+}
+.pic-logo {
+  width: 50%;
+  margin: 20% 0 20% 0;
+}
+
+.title p {
+  margin-top: 0 !important;
+  text-align: left;
+  line-height: 10px;
+  margin-left: 7px;
+}
+
+.title h1 {
+  font-family: 'Dangrek';
+}
+
+ion-card {
+  width: auto;
+  height: auto;
+  box-shadow: none;
+  border-radius: 12px;
+
+}
+
+ion-fab-button {
+  color: rgb(169, 158, 158);
+}
+
+.placeholder {
+  color: rgb(169, 158, 158);
+}

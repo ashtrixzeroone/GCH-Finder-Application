@@ -1,0 +1,21 @@
+ion-content {
+    --background: #000000;
+}
+ion-toolbar {
+    --background: #000000;
+
+    .custom-icon{
+        font-size:30px;
+        color: white;
+      }
+  }
+ion-title {
+    font-size: x-large;
+    font-family: 'Staatliches';
+    color:beige;
+    text-align: left;
+}
+img {
+    object-fit:contain;
+    width:auto;
+}

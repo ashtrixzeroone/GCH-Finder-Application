@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <a href="http://localhost:8100/details1"><ion-icon name="arrow-back-circle-sharp" class="custom-icon" slot="start" style="float:left; margin-left:10px;"></ion-icon></a>
+    <ion-title>Route Guide</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+      <ion-slides [options]="sliderOpts" zoom>
+        <ion-slide>
+        <div class="swiper-zoom-container">
+        <img src="assets/APART2/genisis 1.jpg">
+        </div>
+      </ion-slide>
+      </ion-slides>
+      
+      <ion-slides [options]="sliderOpts" zoom>
+        <ion-slide>
+        <div class="swiper-zoom-container">
+        <img src="assets/APART2/genisis 2.jpg">
+        </div>
+      </ion-slide>
+    </ion-slides>
+    <br>
+    <div>
+      <ion-button expand="full" shape="round" fill="outline" color="light" href="https://goo.gl/maps/xSJtZXRDUigNqK989">
+        <ion-icon name='pin-outline' item-start></ion-icon>
+         View
+      </ion-button>
+    </div><br>
+</ion-content>

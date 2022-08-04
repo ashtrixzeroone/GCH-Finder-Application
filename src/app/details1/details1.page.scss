@@ -1,0 +1,89 @@
+ion-content {
+    --background: #000000;
+}
+ion-toolbar {
+    --background: #000000;
+
+    .custom-icon{
+        font-size:30px;
+        color: white;
+      }
+  }
+
+ion-title {
+    font-size: xx-large;
+    color:beige;
+    text-align: left;
+    font-family: 'Staatliches';
+}
+
+ion-card {
+    width: 80%;
+    height: 80%;
+    box-shadow: none;
+    border-radius: 12px;
+
+    img {
+        object-fit:scale-down;
+        display: block;
+        width: 100%;
+        height: 200px;
+        transform: scale(1.1, 1.1) rotate(1deg);
+        transition: 600ms all ease-in-out;
+    }
+}
+
+.swiper-slide-active {
+    transform: scale(1.05, 1.05);
+
+    ion-card {
+        img {
+            transform: scale(1,1);
+        }
+    }
+
+}
+
+.swiper-slide {
+    transition: 400ms all ease-in-out;
+}
+
+ion-card-content {
+    font-size: 17px;
+    font-family: 'Raleway';
+    color: rgb(0, 0, 0);
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    
+    
+}
+
+ion-card-title {
+    padding-top: 0px;
+    font-size: large;
+    font-family: 'Dangrek';
+    color: beige;
+    text-align: center;
+    
+}
+ion-button{
+    font-size: 17px;
+    color: beige;
+    font-family: 'Dangrek';
+}
+
+.title p {
+    margin-top: 0 !important;
+    text-align: left;
+    line-height: 10px;
+    margin-left: 15px;
+    color:beige;
+    font-family: 'Raleway';
+    font-size: 20px;
+  }
+  
+ion-text {
+    font-weight: 300px;
+}

@@ -1,0 +1,79 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <a href="http://localhost:8100/profile"><ion-icon name="arrow-back-circle-sharp" class="custom-icon" slot="start" style="float:left; margin-left:10px;"></ion-icon></a>
+    <ion-title>Add Apartment</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <ion-content class="ion-padding ion-text-left">
+     <div class="add">
+     <ion-text>Name of Owner</ion-text>
+     <ion-input class="primary-input"></ion-input>
+
+     <ion-text>Facebook Name</ion-text>
+     <ion-input class="primary-input"></ion-input>
+
+     <ion-text>Street</ion-text>
+      <ion-select placeholder="Select">
+        <ion-select-option>Mercury</ion-select-option>
+        <ion-select-option>Venus</ion-select-option>
+        <ion-select-option>Earth</ion-select-option>
+        <ion-select-option>Mars</ion-select-option>
+        <ion-select-option>Jupiter</ion-select-option>
+        <ion-select-option>Saturn</ion-select-option>
+        <ion-select-option>Uranus</ion-select-option>
+        <ion-select-option>Neptune</ion-select-option>
+        <ion-select-option>Pluto</ion-select-option>
+        <ion-select-option>Galaxy</ion-select-option>
+        <ion-select-option>Star</ion-select-option>
+
+      </ion-select>
+      <br>
+      <ion-text>Type</ion-text>
+      <ion-select placeholder="Select">
+        <ion-select-option>Apartment</ion-select-option>
+        <ion-select-option>Bedspace</ion-select-option>
+        <ion-select-option>Boarding House</ion-select-option>
+
+      </ion-select>
+      <br>
+     <ion-text>Contact Number</ion-text>
+     <ion-input type="number" maxlenght="11" class="primary-input"></ion-input>
+
+     <ion-text>Price</ion-text>
+     <ion-input type="number" class="primary-input"></ion-input>
+
+     <ion-text>Availability</ion-text>
+     <ion-select placeholder="Select">
+      <ion-select-option>Available</ion-select-option>
+      <ion-select-option>Not Available</ion-select-option>
+    </ion-select>
+
+
+     <ion-text>Description</ion-text>
+     <ion-textarea></ion-textarea>
+
+     <ion-text>Inclusions</ion-text>
+     <ion-textarea></ion-textarea>
+      
+     <ion-text>Notes</ion-text>
+      <ion-textarea></ion-textarea>
+
+     <ion-text>Apartment Photo</ion-text>
+     <br>
+     <ion-button (click)="presentActionSheet()" class="ion-margin-top"fill="solid" color="light">Add Image</ion-button>
+      <br>
+      <br>
+     <ion-text>Route Guide</ion-text>
+     <br>
+     <ion-textarea placeholder="Link"></ion-textarea>
+     <ion-button (click)="presentActionSheet()" class="ion-margin-top"fill="solid" color="light" margin-top="0px">Add Image</ion-button>
+
+ 
+     <ion-button (click)="added()" expand="block" class="ion-margin-top"fill="solid" color="light">CONFIRM</ion-button>
+
+
+
+    </div>
+</ion-content>

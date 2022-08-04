@@ -1,0 +1,50 @@
+ion-content {
+    --background: #000000;
+
+    .add{
+        font-size: medium;
+        font-family: Century Gothic;
+        color:beige;
+        text-align: left;
+    }
+
+    ion-input {
+        --background: #ffffff33;
+        --padding-start: 20px;
+        height: 40px;
+        border-radius: 22px;
+        margin-bottom: 22px;
+        text-align: left;
+        text-transform: initial;
+        
+    }
+    ion-button {
+        color:beige;
+        font-family: Century Gothic;
+        font-size: medium;
+
+    }
+
+    ion-textarea {
+        --background: #ffffff33;
+        --padding-start: 20px;
+        border-radius: 22px;
+        
+    }
+}
+
+ion-toolbar {
+    --background: #000000;
+
+    .custom-icon{
+        font-size:30px;
+        color: white;
+      }
+  }
+
+ion-title {
+    font-size: x-large;
+    font-family: Century Gothic;
+    color:beige;
+    text-align: left;
+}

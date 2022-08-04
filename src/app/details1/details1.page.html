@@ -1,0 +1,86 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <a href="http://localhost:8100/home"><ion-icon name="arrow-back-circle-sharp" class="custom-icon" slot="start" style="float:left; margin-left:10px;"></ion-icon></a>
+    <ion-title>Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-slides ng-repeat="sliderimages in sliderimages" [option]="option" class="ion-margin-top">
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/APART2/A2.1.jpg">
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/APART2/A2.2.jpg">
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/APART2/A2.3.jpg">
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/APART2/A2.4.jpg">
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img src="assets/APART2/A2.5.jpg">
+      </ion-card>
+    </ion-slide>
+
+  </ion-slides>
+ 
+      <ion-card-title>
+        <h1>NIDA'S APARTMENT</h1>
+      </ion-card-title>
+
+      <div class="title">
+              <p>Php10, 000</p>
+              <p>Neptune Street</p>
+              <p>Apartment<br></p>
+      </div>
+
+      <ion-card-content>
+        Galaxy St., Alangilan, Batangas City<br>
+        0912 345 3625 / 0947 325 2765<br>
+        Facebook Name: Nida Bagon<br>
+        Availability: Available<br>
+        <br>
+      
+      
+        <ion-text style="font-weight: bold;"> Description:<br></ion-text>
+
+        2 Bed Rooms <br>
+        1 Study Room
+        1 Restroom<br>
+        Kitchen<br>
+        Laundry area<br>
+        1 Shower Room<br>
+        <br>
+       
+        <ion-text style="font-weight: bold;">Inclusions:<br></ion-text>
+        None<br>
+        <br>
+        <ion-text style="font-weight: bold;">Note: <br></ion-text>
+        One month advance<br>
+        One month deposit<br>
+        Electricity and water bill are not included<br>
+       
+     </ion-card-content>
+        <br>
+        <div class="ion-text-center">
+        <ion-button block class="ion-text-center"(click)="ViewRouteG()" fill="outline" color="light">VIEW ROUTE GUIDE</ion-button>
+        </div><br>
+  
+</ion-content>

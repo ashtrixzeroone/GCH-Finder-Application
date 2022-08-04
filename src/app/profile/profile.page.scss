@@ -1,0 +1,119 @@
+ion-content {
+    --background: #000000;
+}
+ion-toolbar {
+    --background: #000000;
+
+    .custom-icon{
+        font-size:30px;
+        color: white;
+      }
+  }
+
+ion-title {
+    font-size: xx-large;
+    font-family: 'Staatliches';
+    color:beige;
+    text-align: left;
+}
+ion-content {
+    font-style: normal;
+    font-size: 20px;
+    font-family: 'Raleway';
+    color: beige;
+    background-color: black;
+  } 
+
+  .title p {
+    margin-top: 0 !important;
+    text-align: left;
+    line-height: 10px;
+    margin-left: 7px;
+  }
+  
+  .title h1 {
+    font-family: 'Dangrek';
+  }
+  
+  ion-card {
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    border-radius: 12px;
+  
+  }
+  ion-button{
+    font-size: 20px;
+    color: beige;
+    font-family: 'Dangrek';
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    border-width: 10px;
+    height: 50px;
+
+  }
+
+ion-card {
+    width: 80%;
+    height: 80%;
+    box-shadow: none;
+    border-radius: 12px;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        transform: scale(1.1, 1.1) rotate(1deg);
+        transition: 600ms all ease-in-out;
+    }
+}
+
+.swiper-slide-active {
+    transform: scale(1.05, 1.05);
+
+    ion-card {
+        img {
+            transform: scale(1,1);
+        }
+    }
+
+}
+
+.swiper-slide {
+    transition: 400ms all ease-in-out;
+}
+
+ion-card-content {
+    font-size: 20px;
+    font-family: 'Raleway';
+    color: rgb(0, 0, 0);
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    
+    
+}
+
+ion-card-title {
+    padding-top: 0px;
+    font-size: large;
+    font-family: 'Dangrek';
+    color: beige;
+    text-align: center;
+    
+}
+
+.title p {
+    margin-top: 0 !important;
+    text-align: left;
+    line-height: 10px;
+    margin-left: 15px;
+    color:beige;
+    font-family: 'Raleway';
+    font-size: 20px;
+  }
+  
+ion-text {
+    font-weight: 300px;
+}

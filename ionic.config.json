@@ -1,0 +1,7 @@
+{
+  "name": "GCH",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

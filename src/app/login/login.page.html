@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title></ion-title>
+    <a href="http://localhost:8100/home"><ion-icon name="arrow-back-circle-sharp" slot="start" color="light"size="large" style="float:left; margin-left:10px;"></ion-icon></a>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding ion-text-center" color="black">
+  <img src="assets/apart.png" alt="apart-logo">
+
+  <div class="title">
+  <h1>LANDLORD</h1>
+  <h1>LOGIN</h1>
+  </div>
+  <br>
+  <div class="flex-center">
+    <form [formGroup]="form">
+      <ion-card>
+       
+        <ion-card-content>
+          <ion-item>
+            <ion-label  position="floating">Username</ion-label>
+            <ion-input type="username" formControlName="username"></ion-input>
+          </ion-item>
+          <ion-label color="light" *ngIf="form.get('username').touched && form.get('username').errors?.username">Email is invalid</ion-label>
+
+          <ion-item>
+            <ion-label position="floating">Password</ion-label>
+            <ion-input type="password" formControlName="password"></ion-input>
+          </ion-item>
+          <ion-label color="danger" *ngIf="form.get('password').touched && form.get('password').errors?.password">Email is invalid</ion-label>
+
+          <div class="action-button ion-padding">
+          <ion-button (click)="Profile()"size="large" [disabled]="!form.valid" class="login-button" color="light" fill="outline">LOGIN</ion-button>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </form>
+  </div>
+</ion-content>

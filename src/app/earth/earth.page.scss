@@ -1,0 +1,75 @@
+
+    ion-card {
+        position: relative;
+        text-align: center;
+        color:#000000;
+      }
+    
+      .card-title {
+        position: absolute;
+        top: 36%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+        font-family: 'Staatliches';
+      }
+    
+      .card-subtitle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 52%;
+        width: 100%;
+        color: #fff;
+      }
+    
+    
+    ion-content {
+      --background: #000000;
+  }
+  ion-toolbar {
+      --background: #000000;
+  
+      .custom-icon{
+          font-size:30px;
+          color: white;
+        }
+    }
+  
+  ion-card-title {
+      font-size: xx-large;
+      color:beige;
+      text-align: 15px;
+      font-family: 'Staatliches';
+  }
+  
+  ion-card-subtitle {
+      font-size: medium;
+      color:beige;
+      text-align: 15px;
+      font-family: 'Raleway';
+  }
+  ion-back-button{
+    font-size: 17px;
+    color: beige;
+    font-family: 'Dangrek';
+  }
+  
+  ion-card-header {
+      --background:#000000;
+  } 
+  ion-item{
+      --background:#000000;
+  
+  }
+  ion-button {
+    padding-left: 80px;
+    font-family: 'Staatliches';
+    font-size: 17px;
+  }
+  ion-title {
+      font-size: xx-large;
+      color:beige;
+      text-align: 15px;
+      font-family: 'Staatliches';
+  }
